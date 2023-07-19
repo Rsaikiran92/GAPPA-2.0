@@ -1,0 +1,21 @@
+.creategroup{
+    
+    
+    padding: 50px;
+    align-items: center;
+    height: 505px;
+    overflow: scroll;
+}
+label{
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+}
+input{
+    border: 1px solid black;
+}
+.response{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+}

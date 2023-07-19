@@ -1,0 +1,48 @@
+.sidebar{
+    
+    height: 500px;
+    text-align: center;
+    overflow: scroll;
+    background-color: #f6f7f8;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+    visibility: hidden;
+  }
+  
+  /* Track */
+  .sidebar::-webkit-scrollbar-track {
+    visibility: hidden;
+  }
+   
+  /* Handle */
+  .sidebar::-webkit-scrollbar-thumb {
+    background: rgba(193,193,193,0.2) ;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #c1c1c1; 
+    
+  }
+/*
+.sidebar div{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}*/
+
+.sidebar div:hover{
+    
+    cursor: pointer;
+}
+.text{
+  font-size: 50px;
+  color: black;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
